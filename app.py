@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 
-model=joblib.load(r"C:\Users\Lenovo1\Downloads\best_model.joblib")
+model=joblib.load("best_model.joblib")
 
 
 def main():
